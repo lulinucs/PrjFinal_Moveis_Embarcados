@@ -20,7 +20,7 @@ float minima = 0.0;
 void setup() {
   Serial.begin(115200);
   dht.begin();
-  WiFi.begin("Casa dos fundos da casa amarela", "lulalindo2022");
+  WiFi.begin(SSID, password);
   
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
