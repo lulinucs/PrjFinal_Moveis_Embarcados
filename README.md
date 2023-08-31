@@ -16,7 +16,11 @@ Adicionalmente, o sistema integra um LED RGB que desempenha um papel fundamental
 
 Em resumo, o sistema embarcado, apoiado pelo ESP8266, consiste em dispositivos chave como o sensor de temperatura DHT11, o LED RGB e o display OLED. Sua funcionalidade é centrada na coleta de dados ambientais, sua exibição, a possibilidade de personalização por meio do aplicativo móvel e a capacidade de resposta do LED RGB com base nas configurações estabelecidas.
 
+![Console ESP](http://www.lulinucs.com.br/imgs_prjfinalembarcados/consoleESP.png)
+
 ## Backend
+
+![Console Backend](http://www.lulinucs.com.br/imgs_prjfinalembarcados/consoleBackend.png)
 
 O backend é construído utilizando Node.js e Express, fornecendo a infraestrutura para armazenar, recuperar e configurar os dados do sistema embarcado. Ele é responsável por lidar com as requisições do sistema embarcado e do aplicativo móvel. As funcionalidades principais do backend incluem:
 
@@ -26,6 +30,8 @@ O backend é construído utilizando Node.js e Express, fornecendo a infraestrutu
 - Fornecimento das configurações de temperatura máxima e mínima ao sistema embarcado e ao aplicativo móvel.
 
 ## Aplicativo Móvel
+
+![App](http://www.lulinucs.com.br/imgs_prjfinalembarcados/app.jpeg)
 
 O aplicativo móvel é desenvolvido em React Native e atua como uma interface de controle e monitoramento para o sistema embarcado. Ele permite configurar as temperaturas máxima e mínima, bem como visualizar as leituras atuais. As funcionalidades principais do aplicativo móvel são:
 
