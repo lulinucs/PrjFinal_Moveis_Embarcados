@@ -4,6 +4,7 @@ Este repositório contém um projeto que combina um sistema embarcado, um backen
 
 ## Embarcado
 
+![ESP](http://www.lulinucs.com.br/imgs_prjfinalembarcados/esp.jpg)
 
 O sistema embarcado, operacionalizado através de um ESP8266, apresenta uma estrutura simples, incorporando um conjunto de dispositivos essenciais: um sensor de temperatura DHT11, um LED RGB e um display OLED. Sua funcionalidade central consiste em monitorar ativamente as condições ambientais e responder de acordo.
 
